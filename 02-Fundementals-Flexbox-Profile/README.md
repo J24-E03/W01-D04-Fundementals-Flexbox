@@ -48,3 +48,8 @@ Create a responsive developer profile page using **HTML**, **CSS**, **Flexbox**,
 - Flexbox
 - (**OPTIONAL**) Bootstrap 5
 
+
+Exampes of Developer portfolios:
+-
+- [Example 1](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.actitime.com%2Fproductivity%2Fhow-to-build-a-great-developer-portfolio&psig=AOvVaw2r7V_ZdLKUec0_YFJ7uiJ2&ust=1728643238291000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKD6oITQg4kDFQAAAAAdAAAAABAE)
+- [Example 2](https://wrapbootstrap.com/assets/items/full/5dde2ce86a91d2235585da27f8d9e00b545b38649d1ea293cb9d46ee2dd11d38.webp?v=1710580878)
