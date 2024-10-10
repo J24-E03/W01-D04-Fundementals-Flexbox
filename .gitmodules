@@ -1,0 +1,9 @@
+[submodule "InfamousJohn/w02-d04-e01-omar"]
+	path = InfamousJohn/w02-d04-e01-omar
+	url = git@github.com:dci-marc/w02-d04-e01-omar.git
+[submodule "InfamousJohn/w02-d04-e02-omar"]
+	path = InfamousJohn/w02-d04-e02-omar
+	url = git@github.com:dci-marc/w02-d04-e02-omar.git
+[submodule "InfamousJohn/w02-d04-e03-omar"]
+	path = InfamousJohn/w02-d04-e03-omar
+	url = git@github.com:dci-marc/w02-d04-e03-omar.git
