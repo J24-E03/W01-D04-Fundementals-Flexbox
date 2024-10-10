@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--2. internal styling -->
+    <style>
+        /* type Selector: All elements of a certain type */
+        /* h1{
+            color:cadetblue
+        }
+
+        #first-h1{
+            color:orange
+        }
+
+        .all-headers{
+            color:blueviolet
+        }
+
+        .all-headers{
+            color:darkred
+        } */
+        
+
+        /* multiple selector */
+        #first-h1,h2{
+            /* color:green */
+        }
+
+        /* direct descendents or parent child */
+     
+
+        #main-section h1{
+            color:red
+        }
+        #main-section > h1{
+            color: aqua;
+        }
+
+        /* sibling selector */
+
+        #first-h1 + h2{
+            color:purple
+        }
+
+        /* attribute selectors */
+
+        a[href*=".com"]{
+            background-color: yellow;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <img src="" alt="">
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://digitalcareerinstitute.org/">DCI</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+    <!--1. inline styling -->
+    <div id="main-section" style="border: solid black">
+        <h1 class="all-headers" id="first-h1" style="border:solid; margin:50px 0">Review Document</h1>
+        <h2 class="all-headers">Second Header</h2>
+        <h2>Third sibling</h2>
+        <div>
+            <h1>Second h1</h1>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>
