@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      #container {
+        width: 100%;
+        border: solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 2px;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        max-width: 1200px;
+      }
+
+      .all-items {
+        width: 50px;
+        max-width: 200%;
+
+        text-align: left;
+        align-items: flex-start;
+        padding: 10px;
+        align-self: flex-start;
+        flex-grow: 1;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .views-and-time {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+
+      .dot {
+        height: 5px;
+        width: 5px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      h2 {
+        font-size: 1.2em;
+        margin: 5px 0;
+      }
+
+      p {
+        font-size: 1em;
+        margin: 2px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="item-1" class="all-items">
+        <img src="thumbnail1.jpeg" alt="thumbnail templates" />
+        <h2>10 Best Thumbnail Templates</h2>
+        <p>Jane Jersey</p>
+        <div class="views-and-time">
+          <p>1M</p>
+          <span class="dot"></span>
+          <p>1 month ago</p>
+        </div>
+      </div>
+
+      <div id="item-2" class="all-items">
+        <img src="thumbnail2.jpeg" alt="best thumbnail ideas" />
+        <h2>10 Best Thumbnail Ideas & Mistakes To Avoid</h2>
+        <p>Rita Ronny</p>
+        <div class="views-and-time">
+          <p>2M</p>
+          <span class="dot"></span>
+          <p>2 months ago</p>
+        </div>
+      </div>
+
+      <div id="item-3" class="all-items">
+        <img src="thumbnail3.jpeg" alt="puppy training secret" />
+        <h2>My Puppy Training Secret</h2>
+        <p>Hilde Hansen</p>
+        <div class="views-and-time">
+          <p>3M</p>
+          <span class="dot"></span>
+          <p>3 months ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
